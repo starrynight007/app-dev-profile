@@ -12,6 +12,7 @@
 		70D5FF491FECB1390074F67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D5FF471FECB1390074F67B /* Main.storyboard */; };
 		70D5FF4B1FECB1390074F67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D5FF4A1FECB1390074F67B /* Assets.xcassets */; };
 		70D5FF4E1FECB1390074F67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D5FF4C1FECB1390074F67B /* LaunchScreen.storyboard */; };
+		70D5FF591FECDD7E0074F67B /* imageCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5FF581FECDD7E0074F67B /* imageCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		70D5FF4A1FECB1390074F67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D5FF4D1FECB1390074F67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70D5FF4F1FECB1390074F67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D5FF581FECDD7E0074F67B /* imageCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		70D5FF421FECB1390074F67B /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				70D5FF551FECDA170074F67B /* views */,
 				70D5FF431FECB1390074F67B /* AppDelegate.swift */,
 				70D5FF451FECB1390074F67B /* ViewController.swift */,
 				70D5FF471FECB1390074F67B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				70D5FF4F1FECB1390074F67B /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		70D5FF551FECDA170074F67B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				70D5FF581FECDD7E0074F67B /* imageCorner.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D5FF461FECB1390074F67B /* ViewController.swift in Sources */,
+				70D5FF591FECDD7E0074F67B /* imageCorner.swift in Sources */,
 				70D5FF441FECB1390074F67B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
